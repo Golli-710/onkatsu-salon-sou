@@ -1,0 +1,27 @@
+/* Preserve the original design; keep content visible without Studio's runtime. */
+.appear { opacity:1!important; translate:none!important; transform:none!important; }
+[class*="material-symbols-"], .material-icons { visibility:visible!important; font-family:Arial,sans-serif!important; font-style:normal; line-height:1.2; }
+:focus-visible { outline:3px solid #643827!important; outline-offset:5px; }
+.skip-link { position:fixed; top:8px; left:8px; transform:translateY(-180%); background:#fff; color:#33302e; padding:16px; z-index:9999; font:1rem/1.4 sans-serif; }
+.skip-link:focus { transform:none; }
+[id] { scroll-margin-top:100px; }
+.faq { display:block; }
+.faq summary { display:flex; cursor:pointer; min-height:48px; height:auto!important; padding-top:12px!important; padding-bottom:12px!important; list-style:none; }
+.faq summary::-webkit-details-marker { display:none; }
+.faq summary .text { text-align:left; flex:1; justify-content:flex-start; }
+.faq [data-toggle-content] { height:auto!important; overflow:visible!important; }
+.faq:not([open]) > [data-toggle-content] { display:none!important; }
+.faq[open] > [data-toggle-content] { display:flex!important; }
+.faq summary .icon { flex-shrink:0; }
+.faq summary .text, .faq [data-toggle-content] .text { font-size:1rem!important; line-height:1.8!important; }
+button[data-modal], button[data-action="modal-close"] { min-width:44px; min-height:44px; }
+dialog { max-height:100dvh; overflow-y:auto; }
+dialog .modal-container, dialog .modal-backdrop { opacity:1!important; transform:none!important; }
+dialog .modal-container { height:auto; min-height:100%; }
+html.menu-open { overflow:hidden; }
+.symbol-1 a[href*="hotpepper"], a[href*="hotpepper"] { color:#643827; }
+.symbol-1 a[href*="hotpepper"]:hover, a[href*="hotpepper"]:hover { color:#fff; background:#643827; }
+@media (prefers-reduced-motion:reduce) { *, *::before, *::after { transition:none!important; animation:none!important; scroll-behavior:auto!important; } }
+@media (max-width:600px) { body { overflow-wrap:anywhere; } .text { max-width:100%; } .faq summary { gap:8px; } }
+.detail-main { display:flex; flex-direction:column; align-items:center; width:100%; }
+button[data-modal]:hover { background:#643827; }
