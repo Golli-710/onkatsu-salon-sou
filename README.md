@@ -1,6 +1,6 @@
 # 温活サロンSOU｜Cloudflare Pages用静的サイト
 
-2026年10月8日に https://sou-onkatsu.studio.site/ と `/yomogi`、`/spine`、`/facial` の公開内容を読み取り、4ページを移行しました。既存サイト、STUDIO設定、予約サービス、DNSには変更を加えていません。GitHubへの送信・リポジトリ作成・一般公開は行っていません。
+2026年10月8日に https://sou-onkatsu.studio.site/ と `/yomogi`、`/spine`、`/facial` の公開内容を読み取り、4ページを移行しました。既存サイト、STUDIO設定、予約サービス、DNSには変更を加えていません。2026年10月9日、既存の専用リポジトリ Golli-710/onkatsu-salon-sou に保存し、Cloudflare Pagesへ公開しました。公開URL：https://onkatsu-salon-sou.pages.dev（確認中のため検索非登録）。
 
 ## 開く・編集する
 
@@ -28,4 +28,4 @@ python3 -m http.server 8000 --directory _site
 
 ## 公開前に読む
 
-[移行内容と要確認事項](MIGRATION.md) と [公開手順](DEPLOY.md) を参照してください。既存素材の利用権、料金・期間限定メニュー・FAQの内容を確認してから公開設定を切り替えます。公開先はCloudflare Pages、ソース管理は任意のGitHubリポジトリです。GitHub Pagesの公開設定は不要です。
+[移行内容と要確認事項](MIGRATION.md) と [公開手順](DEPLOY.md) を参照してください。既存素材の利用権、料金・期間限定メニュー・FAQの内容を確認してから公開設定を切り替えます。公開先はCloudflare Pages、ソース管理は Golli-710/onkatsu-salon-sou です。GitHub Pagesの公開設定は不要です。

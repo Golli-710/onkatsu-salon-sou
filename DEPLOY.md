@@ -67,4 +67,4 @@ python3 scripts/check.py _site
 
 Git連携ならテンプレート・画像・CSSの変更をmainへ保存すると再公開されます。問題があれば変更を取り消して再公開するか、Cloudflareの過去の正常な本番デプロイへロールバックします。
 
-本納品ではCloudflareへのログイン、プロジェクト作成、ファイル送信、一般公開、既存サイトの変更は行っていません。
+2026年10月9日にGit連携で公開済みです。プロジェクト：onkatsu-salon-sou、公開URL：https://onkatsu-salon-sou.pages.dev、リポジトリ：https://github.com/Golli-710/onkatsu-salon-sou 。mainの変更は自動反映されます。既存STUDIOサイト・DNSは変更していません。
