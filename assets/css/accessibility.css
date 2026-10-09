@@ -25,3 +25,6 @@ html.menu-open { overflow:hidden; }
 @media (max-width:600px) { body { overflow-wrap:anywhere; } .text { max-width:100%; } .faq summary { gap:8px; } }
 .detail-main { display:flex; flex-direction:column; align-items:center; width:100%; }
 button[data-modal]:hover { background:#643827; }
+
+/* Stack the footer logo and text on narrow screens. */
+@media (max-width:600px) { footer .symbol-3__sd-2 { flex-direction:column!important; gap:20px; } footer .symbol-3__sd-4 { width:100%!important; min-width:0; } }
