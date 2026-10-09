@@ -43,7 +43,7 @@ for path,u in refs:
  if target.is_dir():target=target/'index.html'
  if not target.exists():errors.append(f'{path.relative_to(root)}: missing {u}')
  elif parsed.fragment and target.suffix=='.html' and parsed.fragment not in ids.get(target,set()):errors.append(f'{path}: missing anchor {u}')
-expected={'index.html':12,'yomogi/index.html':3,'spine/index.html':3,'facial/index.html':3}
+expected={'index.html':12,'yomogi/index.html':3,'spine/index.html':3,'facial/index.html':3,'headspa/index.html':0}
 for p,count in expected.items():
  if len(re.findall(r'<details\b',(root/p).read_text()))!=count:errors.append(f'{p}: FAQ count mismatch')
 if errors:
